@@ -111,7 +111,8 @@ input{
       justify-content: center;  
   }
 
-  .card{
+  .card p{
     height: auto;
+    margin: auto 0;
   }
 }
