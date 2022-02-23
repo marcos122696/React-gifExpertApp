@@ -5,10 +5,6 @@
 }
 
 html, body{
-  /* background-image: url('https://i.pinimg.com/originals/20/ff/0e/20ff0eafb91f43e79c80cc3fc60f9364.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   background-color: black;
 }
 
@@ -72,6 +68,12 @@ input{
   justify-content: center;
 }
 
+.text-result {
+  background: linear-gradient(rgb(221, 220, 220),rgb(57, 14, 149));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .card {
   border: 2px solid #3e3f3e;
   border-radius: 5px;
@@ -109,10 +111,5 @@ input{
   .header {
       height: auto;
       justify-content: center;  
-  }
-
-  .card p{
-    height: auto;
-    margin: auto 0;
   }
 }

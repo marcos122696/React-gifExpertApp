@@ -14,7 +14,7 @@ export const GifExpertApp = () =>{
     return (
         <div className="container">
             <div className="header">
-                <h2 className="animate__animated animate__rotateInDownLeft">GifMarcosApp</h2>
+                <h2 className="animate__animated animate__rotateInDownLeft">GifExpertWeb</h2>
                 <p>By Marcos Gomez</p>
             </div>
             <AddCategory setCategories= { setCategories }/>

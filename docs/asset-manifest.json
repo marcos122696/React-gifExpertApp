@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-gifExpertApp/static/css/main.882b7fbe.css",
-    "main.js": "/React-gifExpertApp/static/js/main.cc175754.js",
+    "main.css": "/React-gifExpertApp/static/css/main.f45e21fb.css",
+    "main.js": "/React-gifExpertApp/static/js/main.bcf42872.js",
     "index.html": "/React-gifExpertApp/index.html",
-    "main.882b7fbe.css.map": "/React-gifExpertApp/static/css/main.882b7fbe.css.map",
-    "main.cc175754.js.map": "/React-gifExpertApp/static/js/main.cc175754.js.map"
+    "main.f45e21fb.css.map": "/React-gifExpertApp/static/css/main.f45e21fb.css.map",
+    "main.bcf42872.js.map": "/React-gifExpertApp/static/js/main.bcf42872.js.map"
   },
   "entrypoints": [
-    "static/css/main.882b7fbe.css",
-    "static/js/main.cc175754.js"
+    "static/css/main.f45e21fb.css",
+    "static/js/main.bcf42872.js"
   ]
 }
