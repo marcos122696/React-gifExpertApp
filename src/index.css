@@ -68,12 +68,6 @@ input{
   justify-content: center;
 }
 
-.text-result {
-  background: linear-gradient(rgb(221, 220, 220),rgb(57, 14, 149));
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 .card {
   border: 2px solid #3e3f3e;
   border-radius: 5px;
