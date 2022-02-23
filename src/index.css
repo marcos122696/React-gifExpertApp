@@ -110,4 +110,8 @@ input{
       height: auto;
       justify-content: center;  
   }
+
+  .card{
+    height: auto;
+  }
 }
