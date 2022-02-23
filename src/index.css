@@ -47,13 +47,13 @@ input{
     width: 100%;
 }
 
-.header h2 {
+/* .header h2 {
   font-size: 1.7rem;
   margin-bottom: 0;
   background: linear-gradient(rgb(221, 220, 220),rgb(57, 14, 149));
   -webkit-background-clip: text;
   color: transparent;
-}
+} */
 
 .header p {
   border-bottom: 1px solid rgb(221, 220, 220);
