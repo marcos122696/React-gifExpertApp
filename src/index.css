@@ -52,7 +52,7 @@ input{
 }
 
 .header p {
-  border-bottom: 1px solid rgb(221, 220, 220);
+  border-bottom: 1px solid rgb(255, 252, 252);
   color: white;
   display: flex;
   flex-direction: column;
