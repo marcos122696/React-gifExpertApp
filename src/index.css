@@ -9,6 +9,10 @@ html, body{
 }
 
 #root{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   box-shadow: 5px 5px 200px rgb(57, 14, 149);
   height: 90%;
   margin: 0 auto;
@@ -21,6 +25,11 @@ html, body{
   padding: 20px;
   text-align: center;
   width: 90%;
+  padding: 0;
+}
+
+.container ol {
+  padding: 0;
 }
 
 .header {
@@ -29,7 +38,8 @@ html, body{
     flex-wrap: wrap;
     height: 60px;
     justify-content: space-between;
-    width: 100%;
+    width: 96%;
+    margin: 0 auto;
 }
 
 .header h2 {
@@ -56,13 +66,13 @@ input{
   font-size: 1.2rem;
   padding: 0;
   padding-left: 15px;
-  width: 98%;
+  width: 96%;
   outline: none;
   border: 0;
 }
 
 input:hover {
-  box-shadow: 5px 5px 10px rgb(57, 14, 149);
+  box-shadow: -5px 5px 10px rgb(57, 14, 149);
 }
 
 .card-grid {
@@ -73,7 +83,7 @@ input:hover {
 }
 
 .card {
-  border: 2px solid #3e3f3e;
+  border: 2px solid #5a5a5a;
   border-radius: 5px;
   display: flex; 
   flex-direction: column;
@@ -105,10 +115,24 @@ input:hover {
   width: 100%;
 }
 
-@media screen and (max-width: 440px){
+/* @media screen and (max-width: 480px){
+  .header {
+    height: auto;
+    justify-content: center;  
+  }
+  .header p {
+
+  }
+} */
+
+@media screen and (max-width: 460px){
   .header {
       height: auto;
       justify-content: center;  
+  }
+  input { 
+      padding-right: 15px;
+      width: 90%;
   }
   .container ol {
     padding: 0;
