@@ -110,4 +110,11 @@ input:hover {
       height: auto;
       justify-content: center;  
   }
+  .container ol {
+    padding: 0;
+  }
+  .card {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
 }

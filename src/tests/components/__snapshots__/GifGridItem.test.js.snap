@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debe de mostrar <GifGridItem /> correctamente 1`] = `
+<div
+  className="card animate__animated animate__zoomInUp"
+>
+  <p />
+  <img />
+</div>
+`;
+
+exports[`Debe de mostrar <GifGridItem /> correctametne 1`] = `
+<div
+  className="card animate__animated animate__zoomInUp"
+>
+  <p />
+  <img />
+</div>
+`;
+
+exports[`Pruebas en el componenete <GifGridItem /> Debe de mostrar <GifGridItem /> correctamente 1`] = `
+<div
+  className="card animate__animated animate__zoomInUp"
+>
+  <p />
+  <img />
+</div>
+`;
