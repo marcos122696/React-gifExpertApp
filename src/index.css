@@ -15,17 +15,6 @@ html, body{
   width: 80%;
 }
 
-input{
-  background-color: #3e3f3e;
-  border: 1px solid rgb(57, 14, 149);
-  border-radius: 25px;
-  color: rgb(221, 220, 220);
-  font-size: 1.2rem;
-  padding: 0;
-  padding-left: 15px;
-  width: 98%;
-}
-
 .container {
   height: 100%;
   margin: 0 auto;
@@ -60,6 +49,21 @@ input{
   padding: 0;
 } 
 
+input{
+  background-color: #3e3f3e;
+  border-radius: 25px;
+  color: rgb(221, 220, 220);
+  font-size: 1.2rem;
+  padding: 0;
+  padding-left: 15px;
+  width: 98%;
+  outline: none;
+  border: 0;
+}
+
+input:hover {
+  box-shadow: 5px 5px 10px rgb(57, 14, 149);
+}
 
 .card-grid {
   display: flex;
