@@ -16,6 +16,7 @@ html, body{
   box-shadow: 5px 5px 200px rgb(57, 14, 149);
   height: 90%;
   margin: 0 auto;
+  /* padding: 0 10px; */
   width: 80%;
 }
 
@@ -75,6 +76,11 @@ input:hover {
   box-shadow: -5px 5px 10px rgb(57, 14, 149);
 }
 
+.text-result {
+  overflow: hidden;
+
+}
+
 .card-grid {
   display: flex;
   flex-direction: row;
@@ -115,16 +121,6 @@ input:hover {
   width: 100%;
 }
 
-/* @media screen and (max-width: 480px){
-  .header {
-    height: auto;
-    justify-content: center;  
-  }
-  .header p {
-
-  }
-} */
-
 @media screen and (max-width: 460px){
   .header {
       height: auto;
@@ -133,9 +129,6 @@ input:hover {
   input { 
       padding-right: 15px;
       width: 90%;
-  }
-  .container ol {
-    padding: 0;
   }
   .card {
     margin: 0 auto;
