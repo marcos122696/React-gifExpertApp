@@ -78,7 +78,6 @@ input:hover {
 
 .text-result {
   overflow: hidden;
-
 }
 
 .card-grid {
@@ -122,6 +121,9 @@ input:hover {
 }
 
 @media screen and (max-width: 460px){
+  #root{
+    width: 100%;
+  }
   .header {
       height: auto;
       justify-content: center;  
