@@ -120,13 +120,17 @@ input:hover {
   width: 100%;
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 500px){
   #root{
     width: 100%;
   }
   .header {
       height: auto;
+      flex-direction: column;
       justify-content: center;  
+  }
+  .header p {
+    margin:  16px auto;
   }
   input { 
       padding-right: 15px;
