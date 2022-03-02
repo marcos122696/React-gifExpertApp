@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componenete <GifGrid /> Debe de mostrar <GifGrid /> correctamente 1`] = `
+<Fragment>
+  <h3
+    className="text-result animate__animated animate__lightSpeedInLeft"
+  >
+    Resultados de: 
+    Los Angeles
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+  <p
+    className="text-no-result animate__animated animate__headShake"
+  >
+    No hay resultados
+  </p>
+</Fragment>
+`;

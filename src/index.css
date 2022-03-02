@@ -15,6 +15,7 @@ html, body{
   justify-content: center;
   box-shadow: 5px 5px 200px rgb(57, 14, 149);
   height: 90%;
+  min-height: 700px;
   margin: 0 auto;
   /* padding: 0 10px; */
   width: 80%;
@@ -78,6 +79,13 @@ input:hover {
 
 .text-result {
   overflow: hidden;
+}
+
+.text-no-result {
+  border-bottom: 1px solid red;
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 1.8rem;
 }
 
 .card-grid {
