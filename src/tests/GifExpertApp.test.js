@@ -16,7 +16,9 @@ describe('Pruebas en <GifExpertApp.js />', () => {
 
         const categories = ['los simpons', 'dragon ball'];
         const wrapper = shallow(<GifExpertApp defaultCategories={ categories } />);
+        expect(wrapper ).toMatchSnapshot();
         expect( wrapper .find('GifGrid').length ).toBe( categories.length );
-
     });
+
+
 });
